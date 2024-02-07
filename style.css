@@ -1,0 +1,109 @@
+/* Common Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    
+    bottom: 0;
+    width: 100%;
+}
+
+/* About Page Styles */
+.about-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.column {
+    flex: 50%;
+    padding: 20px;
+}
+
+/* Contact Page Styles */
+.contact-section {
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+}
+
+.form-container, .map-container {
+    flex: 50%;
+    padding: 20px;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+}
+
+input[type="submit"]:hover {
+    opacity: 1;
+}
+.services-list {
+    list-style: inside; /* Positions the bullet points inside the list item */
+    padding-left: 0; /* Removes any default padding */
+    margin-left: 0; /* Aligns the list to the left */
+}
+
+.services-list li {
+    margin-bottom: 10px; /* Adds a bit of space between the list items */
+}
+
+.team-container {
+    display: flex; /* Use flexbox to display team members horizontally */
+    justify-content: space-around; /* Add space between team members */
+}
+
+.team-member {
+    text-align: center; /* Center align text */
+    max-width: 300px; /* Set a maximum width for each team member */
+}
+
+.team-photo {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+}
